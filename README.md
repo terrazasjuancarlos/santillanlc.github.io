@@ -1,4 +1,4 @@
-# Nombre del proyecto: Proyecto
+# Nombre del proyecto
 - Descripción
 - Objetivos
 - Modelo de negocios
