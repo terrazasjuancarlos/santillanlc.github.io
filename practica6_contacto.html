@@ -5,17 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <style>
+        .menu{
+            background-color: #32a3b1;
+            border-radius: 10px;
+        }
+        .menu:hover{
+            background-color: #00545e;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contenido{
+            border: 1px solid black;
+            border-radius: 10px;
+            margin-top: 15px;
+            padding: 15px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Contacto</h1><hr>
-    <h3>Correo electrónico</h3>
-    <p>empresa@mail.com</p>
+    <h1>Navegación en HTLM</h1><hr>
+    <h3>Página de inicio</h3>
+    <div style="border-radius: 10px;">
+        <div style="border: 1px solid black; padding:10px;" class="menu">
+            <a href="practica6_noticias.html">Noticias</a>
+        </div>
+        <div style="border: 1px solid black; padding:10px;" class="menu">
+            <a href="practica6_galeria.html">Galeria</a>
+        </div>
+        <div style="border: 1px solid black; padding:10px;" class="menu">
+            <a href="practica6_contacto.html">Contacto</a>
+        </div>
+    </div>
 
-    <h3>Ubicacion</h3>
-    <img src="mapa.jpg" alt="">
-
-    <div style="border: 1px solid black; padding: 10px; background-color: gainsboro">
-        <a href="practica6.html">Regresar al inicio</a>
+    <div class="contenido">
+        <h1>Contacto</h1><hr>
+        <h3>Correo electrónico</h3>
+        <p>empresa@mail.com</p>
+    
+        <h3>Ubicacion</h3>
+        <img src="mapa.jpg" alt="">
+    
+        <div style="border: 1px solid black; padding: 10px; background-color: gainsboro">
+            <a href="practica6.html">Regresar al inicio</a>
+        </div>
     </div>
 </body>
 </html>
